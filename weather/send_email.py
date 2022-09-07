@@ -1,5 +1,4 @@
 import smtplib
-from re import I
 from urllib import request
 import requests
 from bs4 import BeautifulSoup

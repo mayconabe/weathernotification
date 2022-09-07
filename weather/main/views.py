@@ -1,16 +1,10 @@
-import email
 from django.shortcuts import render
-# from .forms import RegisterForm
 from django.shortcuts import redirect
 from django.views import View
-from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.models import User
 from .forms import EmailForm
 from .models import Email
 import random  
-import string
-from django.conf import settings
-from django.core.mail import send_mail
 # Create your views here.
 
 def random_string(length):  

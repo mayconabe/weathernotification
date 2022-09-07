@@ -1,0 +1,4 @@
+django
+smtplib
+requests
+BeautifulSoup
