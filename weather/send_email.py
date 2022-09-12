@@ -1,5 +1,4 @@
 import smtplib
-from urllib import request
 import requests
 from bs4 import BeautifulSoup
 from email.mime.multipart import MIMEMultipart
